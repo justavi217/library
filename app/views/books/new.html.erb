@@ -1,0 +1,24 @@
+<h1>View Books</h1>
+
+<%= form_tag '/books' do %>
+<div class = "form-group">
+<%= text_field_tag :name, '', placeholder: 'Title', class: 'form-control' %>
+</div>
+<div class = "form-group">
+<%= text_area_tag :name, '', placeholder: 'Description', class: 'form-control' %>
+</div>
+<div class = "form-group">
+<%= text_field_tag :name, '', placeholder: 'Pages', class: 'form-control' %>
+</div>
+<div class = "form-group">
+<%= text_field_tag :name, '', placeholder: 'Author ID', class: 'form-control' %>
+</div>
+<div class = "form-group">
+<%= text_field_tag :name, '', placeholder: 'Amazon URL', class: 'form-control' %>
+</div>
+<div class = "form-group">
+<%= text_field_tag :name, '', placeholder: 'Picture URL', class: 'form-control' %>
+</div>
+
+<%= submit_tag 'Save', class: 'btn btn-success' %>
+<% end %>
